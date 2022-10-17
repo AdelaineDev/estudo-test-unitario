@@ -34,11 +34,12 @@ public class Account {
         }
 
     }
-    public  void lWithrow(double amount) {
+    public double lWithrow(double amount) {
         if (amount > balance) {
             throw new IllegalArgumentException();
         }
         balance -= amount;
+        return amount;
     }
     public  double fullWithrow(){
         double aux = balance;

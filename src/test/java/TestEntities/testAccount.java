@@ -39,7 +39,24 @@ public class testAccount extends AccountFactory {
 
         Assertions.assertEquals(valorEsperado, acc.getBalance());
         Assertions.assertEquals(valorFinal, valorInicial);
+    }
+    @Test
+    public void testarMetodoQueDecrementaSaldo(){
+        double valorEsperado = 500.0;
+        double valorInicial = 800.00;
 
+        Account acc = AccountFactory.criarUmaConta(valorInicial);
+        acc.lWithrow(300);
+
+         Assertions.assertEquals(valorEsperado, acc.getBalance() );
+    }
+    @Test
+    public void testarMetodoQueValidaSaldoInsuficente(){
+        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+        Account acc = AccountFactory.criarUmaConta(500);
+        acc.lWithrow(801.0);
+
+        });
 
     }
 
