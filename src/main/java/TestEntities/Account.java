@@ -1,9 +1,9 @@
-package entities;
+package TestEntities;
 
 public class Account {
     public static double DEPOSIT_FEE_PERCENTAGE = 0.02;
     private Long id;
-    private Double balance;
+    private double balance;
 
     public Account(Long id, Double balance) {
         super();
