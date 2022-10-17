@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e50f83cc-f90f-48e6-88bc-bbf5cf168a5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestFactory/AccountFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestEntities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/testEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEntities/testAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/testEntities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestEntities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestEntities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestEntities/testAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEntities/testAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFactory/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFactory/AccountFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestEntities/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestEntities/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestEntities/testAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestEntities/testAccount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2GGVjmCjKa88tWYQ5Xm0btmRvCo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.testAccount">
+  <component name="RunManager" selected="JUnit.testAccount.testarZerarConta">
     <configuration name="All in aula-junit" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="aula-junit" />
       <extension name="coverage">
@@ -117,14 +125,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testAccount.testarZerarConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestEntities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestEntities" />
+      <option name="MAIN_CLASS_NAME" value="TestEntities.testAccount" />
+      <option name="METHOD_NAME" value="testarZerarConta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.TestEntities in aula-junit" />
       <item itemvalue="JUnit.testAccount.testarDepositodeValorNegativo" />
       <item itemvalue="JUnit.All in aula-junit" />
       <item itemvalue="JUnit.testAccount" />
+      <item itemvalue="JUnit.testAccount.testarZerarConta" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testAccount.testarZerarConta" />
         <item itemvalue="JUnit.testAccount" />
       </list>
     </recent_temporary>
@@ -158,6 +184,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/aula_junit$entities_in_aula_junit.ic" NAME="entities in aula-junit Coverage Results" MODIFIED="1666016534285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>entities.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/aula_junit$testAccount_testarZerarConta.ic" NAME="testAccount.testarZerarConta Coverage Results" MODIFIED="1666026371603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestEntities.*</FILTER>
     </SUITE>
   </component>
 </project>

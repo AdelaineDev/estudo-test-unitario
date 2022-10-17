@@ -40,7 +40,7 @@ public class Account {
         }
         balance -= amount;
     }
-    public  double fulllWithrow(double amount){
+    public  double fullWithrow(){
         double aux = balance;
         balance = 0.0;
         return aux;
